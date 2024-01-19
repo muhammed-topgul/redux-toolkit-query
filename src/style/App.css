@@ -7,3 +7,16 @@
     border-radius: 2%;
     align-items: center;
 }
+
+.top-arrangement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.panel-div {
+    background-color: lightgrey;
+    border-radius: 30px;
+}

@@ -7,18 +7,23 @@
     {
       "id": "2",
       "name": "Muhammed Topgul"
+    }
+  ],
+  "albums": [
+    {
+      "id": "1",
+      "userId": "2",
+      "title": "MT-1"
     },
     {
-      "id": "372a",
-      "name": "John"
+      "id": "2",
+      "userId": "2",
+      "title": "MT-2"
     },
     {
-      "id": "5357",
-      "name": "John"
-    },
-    {
-      "id": "419e",
-      "name": "Vernon Toy"
+      "id": "3",
+      "userId": "2",
+      "title": "MT-3"
     }
   ]
 }

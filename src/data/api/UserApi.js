@@ -13,7 +13,7 @@ const userApi = createApi({
     baseQuery: fetchBaseQuery({
         baseUrl: "http://localhost:3000",
         fetchFn: async(...args) => {
-            await pause(1000);
+            await pause(250);
             return fetch(...args);
         }
     }),
@@ -45,9 +45,9 @@ const userApi = createApi({
             invalidatesTags: () => {
                 return [{type: "User"}];
             },
-            query: (user) => {
+            query: (id) => {
                 return {
-                    url: `/users/${user.id}`,
+                    url: `/users/${id}`,
                     method: "DELETE",
                 }
             }
